@@ -1,17 +1,17 @@
 {
-    "Server": "935811628816031754",
-    "VoiceChannel": "935811629461942335",
+    "Server": "934189067967541268",
+    "VoiceChannel": "934189068470870049",
     "Roles": {
-        "RegOfficer": "935811628937662476",
-        "Kayitsiz": "935811628891512854",
-        "Erkek": "935811628891512857",
-        "Kadin": "935811628891512859",
-        "Uye": "935811628891512855",
-        "Karantina": "935811628816031755"
+        "RegOfficer": "936681103966756945",
+        "Kayitsiz": "936680781596729344",
+        "Erkek": "",
+        "Kadin": "",
+        "Uye": "936680749610983515",
+        "Karantina": "936681280928616478"
     },
     "Channels": {
-        "Welcome": "935811628971196454",
-        "Log": "935817935136620604"
+        "Welcome": "934189068470870048",
+        "Log": "934189592146497596"
     },
     "memberAdd": {
         "hgMesaji": "** {server} **sunucusuna hoş geldin {user}! Seninle birlikte ** {count} **kişi olduk. Hesap: {kontrol}", 
@@ -31,5 +31,5 @@
             "{old}": "Hesabın kaç gün önce açıldığını gösterir. (Hesap Yaşı)"
         }
     },
-    "Tag": "❉"
+    "Tag": "TAG"
 }

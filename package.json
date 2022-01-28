@@ -37,5 +37,9 @@
     "mongoose": "^5.13.7",
     "node-cache": "^5.1.2",
     "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "node": "^16.6.1",
+    "npm": "^7.20.5"
   }
 }

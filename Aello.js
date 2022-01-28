@@ -6,7 +6,7 @@ const Mongo = require('mongoose')
 const [Config, env] = [require('./Conf/Config.json'), require('./Conf/env.json')]
 const client = new Client({ "intents": [Intents.FLAGS.GUILD_PRESENCES, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.DIRECT_MESSAGES, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILDS] })
 const prefix = '.'
-client.login(env.Token);
+client.login(process.env.Token);
 
 Mongo.connect(env.MongoConnect, {
     useNewUrlParser: true,
